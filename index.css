@@ -1,0 +1,75 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************** general ********************************/
+
+body {
+  color: #222;
+  font: 400 13px/21px 'San Francisco', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 72px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+h1, h2, h3, ol, p, ul {
+  padding: 0 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+  padding: 0 0 10px;
+}
+
+/******************************** header ********************************/
+
+header {
+  background: #244ea2;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  padding: 0 0 10px 10px;
+}
+
+header h1,
+header h2 {
+  display: inline-block;
+}
+
+header h2 {
+  color: #99b0de;
+}
+
+/******************************** sections ********************************/
+
+section h2 {
+  padding: 0 20px;
+}
